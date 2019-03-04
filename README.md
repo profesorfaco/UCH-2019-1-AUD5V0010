@@ -70,6 +70,4 @@ Además del *software* en su computador personal, se necesitarán herramientas t
 
 ### Contactos
 
-E-mail: profesor@faco.cl
-Web: http://profesor.faco.cl
-GitHub: https://github.com/profesorfaco
+E-mail: profesor@faco.cl | Web: http://profesor.faco.cl | GitHub: https://github.com/profesorfaco
