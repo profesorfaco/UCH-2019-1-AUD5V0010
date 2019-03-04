@@ -10,7 +10,7 @@ Introducción a la programación para el Diseño de interacción es un electivo 
 
 - [Arduino](https://www.arduino.cc/).
 
-Esto implicará explorar y comprender principios de programación y electrónica, lo que permitirán a cada estudiante avanzar en la integración autodidacta y aplicación autónoma:
+Esto implicará explorar y comprender principios de programación y electrónica, lo que permitirá a cada estudiante avanzar hacia la integración autodidacta y aplicación autónoma:
 
 ### Clases: 
 
