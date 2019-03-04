@@ -70,4 +70,6 @@ Además del *software* en su computador personal, se necesitarán herramientas t
 
 ### Contactos
 
-E-mail: profesor@faco.cl | Web: http://profesor.faco.cl | GitHub: https://github.com/profesorfaco | Horario de clases: Jueves, de 15.00 a 18.15 hrs.
+E-mail: profesor@faco.cl | Web: http://profesor.faco.cl | GitHub: https://github.com/profesorfaco
+
+Horario de clases: Jueves, de 15.00 a 18.15 hrs.
