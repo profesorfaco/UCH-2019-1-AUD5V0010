@@ -64,9 +64,18 @@ Además del *software* en su computador personal, se necesitarán herramientas t
 ### Bibliografía
 
 - Banzi, M. & Shiloh, M. (2014). *Getting Started with Arduino: The Open Source Electronics Prototyping Platform*
+
 - Karvinen, K. & Karvinen, T. (2014). *Getting Started with Sensors: Measure the World with Electronics, Arduino, and Raspberry Pi*
+
 - McCarthy, L., Reas, C. &  Fry, B. (2015). *Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing*
+
 - Reas, C. &  Fry, B. (2015). *Getting Started with Processing: A Hands-On Introduction to Making Interactive Graphics*
+
+### Referencias en línea
+
+- [JavaScript para datos](https://jsparagatos.com/)
+
+- [Lab: Intro to Asynchronous Serial Communications - ITP Physical Computing](https://itp.nyu.edu/physcomp/lab-intro-to-serial-communications/)
 
 ### Contactos
 
