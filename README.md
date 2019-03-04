@@ -2,13 +2,13 @@
 
 ### Universidad de Chile → Diseño → [Profesor FACO](http://profesor.faco.cl/)
 
-Introducción a la programación para el Diseño de interacción es un electivo donde los estudiantse desarrollarán sistemas interactivos mediante el uso de:
+Introducción a la programación para el Diseño de interacción es un electivo donde cada estudiante desarrollará sistemas interactivos mediante el uso de:
 
 - [p5.js](https://p5js.org/es/);
 - [Processing](https://processing.org/); y 
 - [Arduino](https://www.arduino.cc/).
 
-Esto implicará explorar y comprender principios de programación y electrónica, lo que permitirá a cada estudiante avanzar, con más pruebas y menos errores, hacia la integración autodidacta y la aplicación autónoma de tecnologías digitales para la interacción.
+Esto implicará explorar y comprender principios de programación y electrónica, lo que permitirá avanzar, con más pruebas y menos errores, hacia la integración autodidacta y la aplicación autónoma de tecnologías digitales para la interacción.
 
 ### Clases: 
 
