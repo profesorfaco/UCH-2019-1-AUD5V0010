@@ -41,7 +41,7 @@ Esto implicará explorar y comprender principios de programación y electrónica
 
 ### Evaluaciones
 
-Hay 5 instancias de evaluación destacadas en el listado de clases recién presentado. Estas evaluaciones se reparten en el cierre de la presentación de cada tema (p5.js, Processing, Arduino), para comprobar o demostrar el aprovechamiento de 3 clases y hacer ajustes para la continuidad.
+Hay 5 instancias de evaluación destacadas en el listado de clases recién presentado. Estas evaluaciones se reparten en el cierre de la presentación de cada tema (p5.js, Processing, Arduino), para comprobar o demostrar el aprovechamiento de 3 clases,y poder hacer ajustes en el desarrollo del curso con atención a los resultados de aprendizaje.
 
 El promedio final de asignatura resultará del promedio de estas 5 evaluaciones. 
 
