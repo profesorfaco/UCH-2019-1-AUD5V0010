@@ -5,9 +5,7 @@
 Introducción a la programación para el Diseño de interacción es un electivo donde los estudiantse desarrollarán sistemas interactivos a través del uso de 
 
 - [p5.js](https://p5js.org/es/);
-
 - [Processing](https://processing.org/); y 
-
 - [Arduino](https://www.arduino.cc/).
 
 Esto implicará explorar y comprender principios de programación y electrónica, lo que permitirá a cada estudiante avanzar hacia la integración autodidacta y aplicación autónoma:
