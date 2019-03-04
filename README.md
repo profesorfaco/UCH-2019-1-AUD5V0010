@@ -73,3 +73,5 @@ Además del *software* en su computador personal, se necesitarán herramientas t
 E-mail: profesor@faco.cl | Web: http://profesor.faco.cl | GitHub: https://github.com/profesorfaco
 
 Horario de clases: Jueves, de 15.00 a 18.15 hrs.
+
+Horario del profesor en la FAU: Martes y jueves, de 12.00 a 18.15 hrs.
