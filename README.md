@@ -21,7 +21,7 @@ Esto implicará explorar y comprender principios de programación y electrónica
 
 ##### Processing
 
-- Clase 5 → jueves 11 de abril → Conceptos básicos de programación en Java
+- Clase 5 → jueves 11 de abril → Conceptos básicos de programación
 - Clase 6 → jueves 18 de abril → Ejercicios de introducción
 - Clase 7 → jueves 25 de abril → Ejercicios para Evaluación
 - Clase 8 → jueves 02 de mayo → Evaluación Parcial
@@ -38,3 +38,13 @@ Esto implicará explorar y comprender principios de programación y electrónica
 - Clase 13 → jueves 13 de junio → Propuesta
 - Clase 14 → jueves 27 de junio → Pre-Entrega con Evaluación Parcial
 - Clase 15 → jueves 4 de julio  → Entrega Final con Evaluación Parcial
+
+### Materiales:
+
+Es recomendable que los estudiantes cuenten con un computador personal. En este computador deben instalar: 
+
+- [Arduino](https://www.arduino.cc/)
+- Editor de Código Fuente ([Sublime Text](https://www.sublimetext.com/) o [Atom](https://atom.io/))
+- [Fritzing](http://fritzing.org/download/)
+- [Processing](https://processing.org/download/)
+
