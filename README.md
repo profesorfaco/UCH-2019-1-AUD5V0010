@@ -73,7 +73,7 @@ Además del *software* en su computador personal, se necesitarán herramientas t
 
 ### Referencias en línea
 
-- [JavaScript para datos](https://jsparagatos.com/)
+- [JavaScript para gatos](https://jsparagatos.com/)
 
 - [Lab: Intro to Asynchronous Serial Communications - ITP Physical Computing](https://itp.nyu.edu/physcomp/lab-intro-to-serial-communications/)
 
