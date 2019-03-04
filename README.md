@@ -2,7 +2,7 @@
 
 ### Universidad de Chile → Diseño → [Profesor FACO](http://profesor.faco.cl/)
 
-Introducción a la programación para el Diseño de interacción es un electivo donde los estudiantse desarrollarán sistemas interactivos a través del uso de 
+Introducción a la programación para el Diseño de interacción es un electivo donde los estudiantse desarrollarán sistemas interactivos mediante el uso de:
 
 - [p5.js](https://p5js.org/es/);
 - [Processing](https://processing.org/); y 
@@ -41,7 +41,7 @@ Esto implicará explorar y comprender principios de programación y electrónica
 
 ### Evaluaciones
 
-Destacadas en el listado recién presentado hay 5 instancias de evaluación. Estas evaluaciones se reparten en el cierre de la presentación de cada temática (p5.js, Processing, Arduino), para comprobar o demostrar el aprovechamiento en los estudios.
+Hay 5 instancias de evaluación destacadas en el listado de clases recién presentado. Estas evaluaciones se reparten en el cierre de la presentación de cada tema (p5.js, Processing, Arduino), para comprobar o demostrar el aprovechamiento de 3 clases y hacer ajustes para la continuidad.
 
 El promedio final de asignatura resultará del promedio de estas 5 evaluaciones. 
 
@@ -52,15 +52,14 @@ Para aprobar este electivo, se requiere:
 
 ### Herramientas:
 
-Es recomendable que los estudiantes cuenten con un computador personal. En este computador deberían instalar: 
+Es recomendable, pero no excluyente, disponer de un computador personal. En este computador deberían instalar: 
 
 - [Arduino](https://www.arduino.cc/)
-- Editor de Código Fuente ([Sublime Text](https://www.sublimetext.com/) o [Atom](https://atom.io/))
 - [Fritzing](http://fritzing.org/download/)
 - [Processing](https://processing.org/download/)
+- Un editor de Código Fuente (Se recomienda: [Sublime Text](https://www.sublimetext.com/) o [Atom](https://atom.io/))
 
-Además del *software*, se necesitarán herramientas tipo *hardware*: Placas de Arduino, sensores, actuadores, placas de prueba. Pero en la medida que avance el curso y se desplieguen los intereses de cada estudiante, aseguraremos la disponibilidad de estas herramientas.
-
+Además del *software* en su computador personal, se necesitarán herramientas tipo *hardware*: Placas de Arduino, sensores, actuadores, placas de prueba. Pero en la medida que avance el curso y se desplieguen los intereses de cada estudiante, aseguraremos la disponibilidad de estas herramientas.
 
 ### Bibliografía
 
@@ -68,3 +67,9 @@ Además del *software*, se necesitarán herramientas tipo *hardware*: Placas de 
 - Karvinen, K. & Karvinen, T. (2014). *Getting Started with Sensors: Measure the World with Electronics, Arduino, and Raspberry Pi*
 - McCarthy, L., Reas, C. &  Fry, B. (2015). *Getting Started with p5.js: Making Interactive Graphics in JavaScript and Processing*
 - Reas, C. &  Fry, B. (2015). *Getting Started with Processing: A Hands-On Introduction to Making Interactive Graphics*
+
+### Contactos
+
+E-mail: profesor@faco.cl
+Web: http://profesor.faco.cl
+GitHub: https://github.com/profesorfaco
