@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hola mundo!</title>
+    
+    <!--Inicia un lapso de CSS-->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background: rgba(200, 200, 200, 1);
+            font-size: 100%;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            margin: 2rem;
+            color: rgba(0, 0, 0, .75);
+        }
+        
+        button {
+            padding: 0.5rem;
+            margin: 1rem 2rem;
+            border-radius: 3px;
+        }
+        
+        button:hover {
+            background: silver;
+        }
+    </style>
+    <!--No más CSS, por ahora-->
+
+</head>
+
+<body>
+    <h1>Hola mundo!</h1>
+    <p>Lo que sigue es una <strong>div</strong>isión de <strong>id</strong>entidad "<strong>propia</strong>", donde se crea un <a href="https://www.w3schools.com/html/html5_canvas.asp">canvas</a> por vía de <a href="https://p5js.org/es/get-started/">p5.js</a></p>
+    <div id="propia"></div>
+    <button onclick="borrar()">Borrar</button>
+    
+    <!--Inicia un lapso de Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script>
+        function setup() {
+            var canvas = createCanvas(windowWidth, 400);
+            canvas.parent('propia');
+            background(255);
+        }
+
+        function draw() {
+            ellipse(mouseX, mouseY, 50, 50);
+        }
+
+        function borrar() {
+            background(255);
+        }
+    </script>
+    <!--No más Javascript, por ahora-->
+
+</body>
+
+</html>
