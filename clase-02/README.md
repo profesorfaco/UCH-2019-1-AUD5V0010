@@ -1,4 +1,6 @@
-# Clase 6 → Miércoles 11 de abril
+### DATOS
+
+
 
 ### Canvas
 
@@ -71,23 +73,3 @@ En caso que necesiten volver sobre la partida de la clase, podrían consultar la
 - Luego pueden buscar a [Daniel Shiffman](http://shiffman.net/), el loquillo detrás de [The Coding Train](https://www.youtube.com/thecodingtrain/). Sus listas de reproducción en [p5.js tutorials - JavaScript, HTML, and CSS](https://www.youtube.com/user/shiffman/playlists?view=50&sort=dd&shelf_id=14) pueden resultar de gran ayuda.
 
 - Y siempre podrán consultar [las referencias de la página de p5.js](https://p5js.org/es/reference/).
-
-#### Ejercicio:
-
-Después de una explicación general, corresponde hacer lo siguiente:
-
-- Modificar `index.html` para que cambie el color de fondo según la temperatura del lugar escogido;
-
-- modificar `sketch-earthquake-1.html` para que se muestre en gráficos de barra;
-
-- modificar `sketch-money.html` para que se muestre el cambio del valor del Euro;
-
-- modificar `sketch-regiones.html` para que se muestren las densidades; y
-
-- modificar `sketch-titanic.html` para que se muestren líneas, que mejorarían la comprensión de [la visualización](https://github.com/profesorfaco/enedi/blob/gh-pages/README.md#introducci%C3%93n-a-la-visualizaci%C3%93n).
-
-Pueden hacer las modificaciones en el orden que estimen conveniente.
-
-- - - - - - 
-
-[Clase anterior](https://github.com/profesorfaco/dno037-2018-05) | [Siguiente clase](https://github.com/profesorfaco/dno037-2018-07)
