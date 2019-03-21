@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<title>Sketching</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+<div class="container">
+	<a class="navbar-brand" href="index.html">Sketching</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active"><a class="nav-link" href="index.html">Portada</a></li>
+			<li class="nav-item"><a class="nav-link" href="sketch-earthquake.html">Temblores</a></li>
+			<li class="nav-item"><a class="nav-link" href="sketch-money.html">Dinero</a></li>
+			<li class="nav-item"><a class="nav-link" href="sketch-regiones.html">Regiones</a></li>
+		</ul>
+	</div>
+</div>
+</nav>	
+<div class="container pt-5">
+	<div class="row justify-content-center">
+		<div class="col-sm-8">
+			<div class="input-group mb-3">
+				<select class="custom-select" id="city">
+				<option selected>Escoge una ciudad</option>
+				<option value="2759794">Amsterdam, NL</option>
+				<option value="1816670">Beijing, CN</option>
+				<option value="1273294">Delhi, IN</option>
+				<option value="290030">Doha, QA</option>
+				<option value="292223">Dubai, AE</option>
+				<option value="745044">Istanbul, TR</option>
+				<option value="2643743">London, GB</option>
+				<option value="3117735">Madrid, ES</option>
+				<option value="3530597">Mexico City, MX</option>
+				<option value="6542283">Milan, IT</option>
+				<option value="524901">Moscow, RU</option>
+				<option value="5128581">New York, US</option>
+				<option value="2988507">Paris, FR</option>
+				<option value="2147714">Sydney, AU</option>
+				<option value="1850147">Tokyo, JP</option>
+				</select>
+				<div class="input-group-append">
+					<button id="submit">submit</button>
+				</div>
+			</div>
+			<p class="p-2 text-muted">En este sketch aprovechamos los datos del tiempo de la ciudad seleccionada para "pintar" un canvas que tiene todo el ancho y alto de la página,  y una posición que lo deja como si fuese un fondo. La consulta podría parecer un poco complicada, porque tengo una función que consulta por lo seleccionado y otra que va a buscar los datos de forma sincrónica.</p>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col pt-5" id="here"></div>
+	</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+<script>
+var input;
+//Obtenga su apiKey en https://openweathermap.org/
+var apiKey = '';
+function setup() {
+	var button = select('#submit');
+	button.mousePressed(estaCiudad);
+	input = select('#city');
+}
+function estaCiudad() {
+	var laURL = 'https://api.openweathermap.org/data/2.5/weather?id=' + input.value() + '&units=metric&APPID=' + apiKey;
+	loadJSON(laURL, gotData);
+}
+function gotData(data) {
+	console.log(data);
+	var canvas = createCanvas(windowWidth, windowHeight);
+	canvas.position(0,0);
+	canvas.style('z-index','-1');
+	fill(155);
+	background(255)
+	textAlign(LEFT);
+	textSize(72);
+	text(Math.round(data.main.temp) + 'º C', 50, height-50);
+	textAlign(RIGHT);
+	textSize(24);
+	text(data.name + ', ' + data.sys.country, width-80, height-80);
+	textSize(16);
+	text('Viento: ' + data.wind.speed + ' km/hr, ' + data.wind.deg + 'º', width-80, height-50);
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

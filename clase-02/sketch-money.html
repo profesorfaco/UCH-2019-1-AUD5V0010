@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<title>Sketching</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!--desde aquí el menú de navegación-->
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+<div class="container">
+	<a class="navbar-brand" href="index.html">Sketching</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item"><a class="nav-link" href="index.html">Portada</a></li>
+			<li class="nav-item"><a class="nav-link" href="sketch-earthquake.html">Temblores</a></li>
+			<li class="nav-item active"><a class="nav-link" href="sketch-money.html">Dinero</a></li>
+			<li class="nav-item"><a class="nav-link" href="sketch-regiones.html">Regiones</a></li>
+		</ul>
+	</div>
+</div>
+</nav>	
+<!--hasta aquí el menú de navegación-->
+<div class="container pt-5">
+<div class="row justify-content-center">
+		<div class="col">
+			<h1>Hoy el dolar cuesta $<span>………</span></h1>
+			<p class="text-muted">Nuevamente, dibujo con datos en un canvas que queda como fondo. En este caso los datos los obtengo de la <a href="https://mindicador.cl/" target="_blank">mindicador.cl</a> con una consulta precargada (preload). Además, puse una condición que pinta de rojo al valor menor a 605.</p>
+		</div>
+	</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+<script>
+var data;
+var n;
+function preload() {
+	data = loadJSON('https://mindicador.cl/api/dolar');
+}
+function setup() {
+	n = 14 //data.serie.length;
+	console.log(n);
+	console.log(data);
+	var canvas = createCanvas(windowWidth, windowHeight);
+	canvas.position(0,0);
+	canvas.style('z-index','-1');
+	noLoop();
+	document.getElementsByTagName("span")[1].innerHTML = data.serie[0].valor;
+}
+
+function draw() {
+	fill(255);
+	background(255);
+	translate(40,0);
+	noStroke();
+	for(var i = 0; i < n; i++){
+		var x = (windowWidth/n)*i;
+		var y = data.serie[i].valor;
+		var mapeado = map(y,0,1000,windowHeight*1.5,0);
+		if (data.serie[i].valor < 605){
+		fill(255,0,0);
+		}else{
+		fill(0);
+		}
+		textSize(13);
+		textAlign(CENTER);
+		text(data.serie[i].valor+"\n•",x, mapeado-14);
+		textSize(10);
+		text(data.serie[i].fecha.substring(5,10),x, windowHeight-20);
+		vertex(x,mapeado)
+	}
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

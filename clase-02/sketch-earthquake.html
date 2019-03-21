@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<title>Sketching</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+<div class="container">
+	<a class="navbar-brand" href="index.html">Sketching</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item"><a class="nav-link" href="index.html">Portada</a></li>
+			<li class="nav-item active"><a class="nav-link" href="sketch-earthquake.html">Temblores</a></li>
+			<li class="nav-item"><a class="nav-link" href="sketch-money.html">Dinero</a></li>
+			<li class="nav-item"><a class="nav-link" href="sketch-regiones.html">Regiones</a></li>
+		</ul>
+	</div>
+</div>
+</nav>		
+<div class="container py-5">
+<div class="row justify-content-center">
+		<div class="col">
+			<h1><span id="nro"></span> Earthquakes</h1>
+			<p class="text-muted">A continuación se dibuja una visualización de los temblores +4.5 M que han sido registrados por la UGS en las últimas 24 horas. Para realizar la visualización con el menor <a href="http://www.infovis-wiki.net/index.php?title=Lie_Factor">Lie Factor</a> posible, mapeo los registros con un máximo igual al <a href="https://earthquake.usgs.gov/earthquakes/browse/largest-world.php">mayor temblor registrado en la historia</a>, el Terremoto de Valdivia (1960)</p>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid">
+<div class="row" style="overflow: hidden;">
+		<div id="here"></div>
+	</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
+<script>
+var earthquakes;
+var n;
+function preload() {
+	earthquakes = loadJSON('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson');
+}
+function setup() {
+	n = earthquakes.features.length;
+	document.getElementById("nro").innerHTML= n;
+	console.log(earthquakes);
+	var canvas = createCanvas(windowWidth, windowHeight);
+	canvas.position(0,0);
+	canvas.style('z-index','-1')
+	noLoop();
+}
+
+function draw() {
+	for(var x = 0; x < n; x++){
+		var magnitud = earthquakes.features[x].properties.mag;
+		var d = map(magnitud, 4.5, 9.5, 2, width/(n+1));
+		var porcion = width/(n+1)*(x+1);
+		fill(100);
+		noStroke();
+		ellipse(porcion, height/1.5, d, d);
+		fill(200,55);
+		ellipse(porcion, height/1.5, width/(n+1), width/(n+1));
+		fill(0);
+		rectMode(CENTER);
+		textAlign(CENTER);
+		var txt = earthquakes.features[x].properties.mag;
+		text(txt, porcion+2,height/1.8, 20, 20);
+		var lugar = earthquakes.features[x].properties.place;
+		text(lugar, porcion+2,height*0.85, 50, width/(n+1));
+	}
+}
+</script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
