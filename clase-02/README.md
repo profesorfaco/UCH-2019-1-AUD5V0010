@@ -12,7 +12,7 @@ Si el contenido de la variable fuera textual –como cadena de caracteres o *str
 
 ```var nombre = "Palabra o palabras";```
 
-Las palabras están entre comillas, los números no; habría que poner atención a un caso que parece estar justo al medio de ambos, pero se trata de un tipo de dato distinto de ambas opciones, se trata del [booleano](https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico), que solo admite dos posibles: `true` o `false`: 
+Las palabras están entre comillas, los números no; habría que poner atención a un caso que parece estar justo al medio de ambos, pero se trata de un tipo de dato distinto de ambas opciones, se trata del [booleano](https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico), que solo admite dos posibilidades: `true` o `false`: 
 
 ```var nombre = false;```
 
