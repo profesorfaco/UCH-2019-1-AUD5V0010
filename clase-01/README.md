@@ -89,3 +89,7 @@ Puedes contar con más información oficial de p5.js, es recomendable consultar:
 - [p5.js | get started](https://p5js.org/es/get-started/)
 
 - [The Coding Train - p5.js tutorials](https://www.youtube.com/user/shiffman/playlists?shelf_id=14&view=50&sort=dd)
+
+-------
+
+[Segunda clase →](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-02)
