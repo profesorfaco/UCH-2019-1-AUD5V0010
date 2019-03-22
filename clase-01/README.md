@@ -2,8 +2,6 @@
 
 ### Conceptos básicos de programación en web
 
-#### Introducción
-
 [p5.js](https://p5js.org/es/) es una [biblioteca de JavaScript](https://es.wikipedia.org/wiki/Biblioteca_de_JavaScript), que reinterpreta a [Processing](https://processing.org/) en función de la web actual. 
 
 Esta biblioteca fue creada por [Lauren McCarthy](http://lauren-mccarthy.com/) y es desarrollada por una comunidad de colaboradores, con apoyo de [Processing Foundation](https://processingfoundation.org/) y [NYU ITP](https://forms.tisch.nyu.edu/page/s/itp-landing). Entre los colaboradores hay 2 chilenos, que se han encargado de la traducción de referencia y tutoriales al castellano; ellos son: [Guillermo Montecinos](https://twitter.com/guillermolooped) y [Aarón Montoya-Moraga](https://twitter.com/montoyamoraga)
