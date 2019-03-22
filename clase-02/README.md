@@ -8,7 +8,7 @@ Por ejemplo, si el dato a ser contenido por la variable es numérico –sea núm
 
 ```var nombre = 123;```
 
-Si el contenido de la variable fuera textual –como cadena de caracteres o *string*–, corresponde escribirlo:
+Si el contenido de la variable fuera textual –como cadena de caracteres o *string*–, corresponde escribirlo entre comillas:
 
 ```var nombre = "Palabra o palabras";```
 
