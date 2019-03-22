@@ -1,75 +1,197 @@
-### DATOS
+# p5.js → Clase 2 → jueves 20 de marzo
 
+### Datos
 
+Los datos en JavaScript pueden ser asignados a variables. Cada tipo de dato exige un cuidado especial.
 
-### Canvas
+Por ejemplo, si el dato a ser contenido por la variable es numérico –sea número entero o decima–, corresponde escribir:
 
-**Canvas** es un elemento HTML. Literal y obviamente, se trata de un lienzo. Es usado para dibujar gráficos con scripts (normalmente JavaScript). 
+```var nombre = 123;```
 
-En el código que sigue tengo un botón y un lienzo. Al presionar el botón, se ejecuta una función (pinta). Esta función dibuja algo en el lienzo de identidad "este". Lo que dibuja es un cuadrilátero lleno, de tamaño 100 x 100 pixeles. El cuadrilátero está ubicado a 25 pixeles del extremo izquierdo del lienzo y 25 pixeles de su extremo superior.
+Si el contenido de la variable fuera textual –Como cadena de caracteres o String–, corresponde escribir:
+
+```var nombre = "Palabra o palabras";```
+
+Habría que poner atención a algo que aparéntemente estaría entre ambas, porque se ve como una palabra que se escribe sin comillas, pero se trata del tipo de dato distinto de ambas opciones, se trata del booleano: 
+
+```var nombre = false;```
+
+Sin olvidar las consideraciones recién mencionadas, podemos avanzar a la variables que contienen un arreglo, que son conjuntos de elementos que nos exigen el uso de paréntesis de llave y atención a las recomendaciones anteriores: 
+
+```var nombre = [123, "Palabra o Palabras", false];```
+
+Se puede consultar por cada elemento de un arreglo indicando la posición que tenga en él. Así, por ejemplo, se puede escribir `nombre[0]`para obtener `123`, porque la primera posición en un arreglo es identificada con ese número, y las demás con los sucesivos, o sea, el elemento de segunda posición en un arreglo se obtiene de `nombre[1]`.
+
+Una variable también puede contener un objeto, en este caso usamos paréntesis de llave (`{}`), y en su interior tenemos pares donde uno denomina y otro es denominado, separados por coma entre ellos:
+
+```var nombre = {dad:"Homer", mom:"Marge", children:["Bart", "Lisa", "Maggie"]}```
+
+Cuando usamos un objeto, podemos pedir cada denominado por su denominador. Así, por ejemplo `nombre.dad` entregaría a `Homer`. Y podemos hacer combinaciones de objetos con arreglos, por ejemplo `nombre.children[1]` entregaría a `Lisa`.
+
+Inspirados en esta notación de objetos en JavaScript nace [JSON](http://json.org/json-es.html), un formato ligero de intercambio de datos que ha devenido en un formato de texto completamente independiente que puede ser analizado, generado, transformado y procesado en distintos lenguajes (ActionScript, [C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)), C++, C#, ColdFusion, Common Lisp, Delphi, E, Eiffel, Java, [JavaScript](https://es.wikipedia.org/wiki/JavaScript), ML, Objective-C, Objective CAML, Perl, [PHP](https://es.wikipedia.org/wiki/PHP), [Python](https://es.wikipedia.org/wiki/Python), Rebol, [Ruby](https://es.wikipedia.org/wiki/Ruby), Lua, Visual FoxPro).
+
+Si convertimos el ejemplo del objeto de Los Simpsons a JSON, tenemos:
 
 ```
-<button type="button" onClick="pinta()">Pinta</button>
-<canvas id="este" width="150" height="150" style="background:silver"></canvas>
-<script>
-function pinta() {
-var canvas = document.getElementById('este');
-if (canvas.getContext) {
-var ctx = canvas.getContext('2d');
-ctx.fillRect(25, 25, 100, 100);
-  }
+{
+	"dad":"Homer", 
+	"mom":"Marge", 
+	"children":["Bart", "Lisa", "Maggie"]
 }
-</script>
 ```
+
+Puede notarse que, a diferencia del objeto, en JSON el denominador siempre lleva comillas.
+
+Como hablamos de un formato ligero de intercambio de datos, corresponde sumar un apartado que se refiera a las API, el CSV y el XML.
+
+**[API](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) es un conjunto de funciones, procedimientos y subrutinas** que pueden ser utilizadas para programar una aplicación que accede a otra aplicación (la sigla API significa interfaz de programación de aplicaciones). Las API que nos interesan en este apartado son las que entregan datos en JSON, y entre ellas podemos mencionar a [Weather API](https://openweathermap.org/api), [Mindicador](https://mindicador.cl/), [DataChile](https://es.datachile.io/about/api).
+
+**[CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas) son documentos que simplifican las tablas de una hoja de cálculo** (Excel), donde columnas y filas se reemplazan, respectivamente, por comas y saltos de línea.
+
+Por ejemplo, en nuestra hoja de cálculo podríamos tener los siguientes datos:  
+
+
+| planet        | diameter      | rotation  |
+| ------------- | ------------- | --------- |
+| Mercurio      | 4878          | 58.6667   |
+| Venus         | 12100         | 243       |
+| Tierra        | 12756         | 1         |
+| Marte         | 6787          | 1.03      |
+| Júpiter       | 142984        | 0.414     |
+| Saturno       | 120536        | 0.426     |
+| Urano         | 51108         | 0.718     |
+| Neptuno       | 49538         | 0.6745    |
+
+Cuando esta tabla se hace CSV, queda de la siguiente manera:   
+
+```
+planet, diameter, rotation
+Mercurio, 4878, 58.6667
+Venus, 12100, 243
+Tierra, 12756, 1
+Marte, 6787, 1.03
+Júpiter, 142984, 0.414
+Saturno, 120536, 0.426
+Urano, 51108, 0.718
+Neptuno, 49538, 0.6745
+```
+
+**[XML](https://es.wikipedia.org/wiki/Extensible_Markup_Language) es un lenguaje de marcado (Markup Language) como HTML**, pero extensible (eXtensible). Esta última característica hace que su propósito descriptivo ofrece mayor alcance, permitiéndonos compartir datos como:
+
+```
+<root>
+   <dad>Homer</dad>
+   <mom>Marge</mom>
+   <children>
+      <element>Bart</element>
+      <element>Lisa</element>
+      <element>Maggie</element>
+   </children>
+</root>
+
+```
+
+El ejemplo replica a lo que ya vimos en JSON, y esto no es casual: La popularidad de JSON le ha hecho mucha sobra al uso de XML.
 
 ### p5.js 
 
-[p5.js](https://p5js.org/es/get-started/) es una biblioteca de JavaScript creada para hacer la programación accesible a artistas, diseñadores, educadores y principiantes. Si ya conocen [Processing](https://processing.org/reference/), esta biblioteca [podría resultar aun más accesible](https://github.com/processing/p5.js/wiki/Processing-transition), a condición de recordar lo siguiente: Processing se basa en Java, mientras p5.js, que es una reinterpretación de Processing, hecha biblioteca de JavaScript (Java y JavaScript se parecen tanto como una cama a un camarín; digo esto para que no se engañen con sus nombres, creyendo que el parecido podría ser como el de la cama al camarote).
+[p5.js](https://p5js.org/es/get-started/) es una biblioteca de JavaScript creada para hacer la programación accesible a artistas, diseñadores, educadores y principiantes. 
 
-Con p5.js podemos escribir scripts como "sketches" (término usado en Processing para referirse a los bocetos de programas que uno puede escribir). Éstos se ejecutarán dentro de un `<canvas></canvas>` que esta misma biblioteca de JavaScript se encarga de crear. 
-
-Por ejemplo, algo como lo que vimos más arriba, se escribiría de la siguiente manera:
+Al tratarse de una biblioteca de JavaScript, todo lo dicho anteriormente sobre las variables aplica en p5.js:
 
 ```
-<body>
-<div id="este"></div>
-<!--incluyo la biblioteca-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
-<!--escribo el script/sketch-->
 <script>
+var a = 123;
+var b = "Palabra o palabras";
+var c = false;
+var d = [123, "Palabra o Palabras", false];
+var e = {dad:"Homer", mom:"Marge", children:["Bart", "Lisa", "Maggie"]};
+
 function setup() {
-	var canvas = createCanvas(150, 150);
-	canvas.parent('este');
+	createCanvas(100, 100);
+	print(a);
+	noLoop;
 }
 function draw() {
-	fill(0);
-	rect(25,25,100,100);
+	text(e.children[0], 20, 20);
 }
 </script>
-</body>
 ```
 
-Y eso se parece mucho a lo que tendría que escribir en Processing:
+Además, esta biblioteca nos permite tomar datos que sean intercambiados vía [JSON](https://p5js.org/reference/#/p5/loadJSON), [CSV](https://p5js.org/reference/#/p5/loadTable) y [XML](https://p5js.org/reference/#/p5/loadXML). En todos los casos se recomienda crear una variable global, fuera de todo contexto, para asignarle su contenido dentro de una función de pre-carga. 
+
+JSON (JavaScript Objecto Notation)
 
 ```
-void setup() {
-	size(150, 150);
+<script>
+
+var data;
+
+function preload() {
+	data = loadJSON("…");
 }
 
-void draw() {
-	fill(0);
-	rect(25, 25, 100, 100);
+function setup() {
+	… 
 }
+function draw() {
+	…
+}
+</script>
 ```
 
-En esta clase partiremos trabajando con el [p5.js web editor](https://alpha.editor.p5js.org/). Minutos más tarde pasaremos a trabajar con los contenidos del repositorio, usando el editor de código que habitualmente han usado en sus computadores.
+CSV (Comma Separates Values)
 
-En caso que necesiten volver sobre la partida de la clase, podrían consultar la página [First steps with p5.js](https://creative-coding.decontextualize.com/first-steps/), de Allison Parrish.
+```
+<script>
 
-**En caso que necesiten referencias:**
+var data;
 
-- Primero pueden revisar [una panorámica de las principales características de p5.js](https://github.com/processing/p5.js/wiki/p5.js-overview), escrita por [Lauren McCarthy](https://github.com/lmccart), la creadora de esta biblioteca de JavaScript.  
+function preload() {
+	data = loadTable("…", "csv", "header");
+}
 
-- Luego pueden buscar a [Daniel Shiffman](http://shiffman.net/), el loquillo detrás de [The Coding Train](https://www.youtube.com/thecodingtrain/). Sus listas de reproducción en [p5.js tutorials - JavaScript, HTML, and CSS](https://www.youtube.com/user/shiffman/playlists?view=50&sort=dd&shelf_id=14) pueden resultar de gran ayuda.
+function setup() {
+	… 
+}
+function draw() {
+	…
+}
+</script>
+```
 
-- Y siempre podrán consultar [las referencias de la página de p5.js](https://p5js.org/es/reference/).
+XML (eXtensible Markup Language)
+
+```
+<script>
+
+var data;
+
+function preload() {
+	data = loadXML("…");
+}
+
+function setup() {
+	… 
+}
+function draw() {
+	…
+}
+</script>
+```
+
+Lo que hace p5.js con loadJSON, loadTable y loadXML es leer los datos y asignarlos a la variable al modo que corresponda, sean números, cadenas de caracteres, booleanos, arreglos u objetos.
+
+Podrás encontrar otras maneras de tomar datos externos en p5.js en [las referencias, bajo el título de input](https://p5js.org/reference/#group-IO).
+
+#### Referencias
+
+- [Introducción a Datos - Pablo H. Paladino](https://visualizacionuc.github.io/introduccion-datos/)
+
+- [Working with data en YouTube - The Coding Train (Daniel Shiffman)](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r)
+
+- Para validar el JSON: https://jsonlint.com/
+
+- Para poner en línea el JSON ya validado: http://myjson.com/
+
+- Para comenzar a explorar p5.js con su editor en línea: https://editor.p5js.org/
