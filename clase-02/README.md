@@ -120,7 +120,7 @@ function draw() {
 
 Además, esta biblioteca nos permite tomar datos que sean intercambiados vía [JSON](https://p5js.org/reference/#/p5/loadJSON), [CSV](https://p5js.org/reference/#/p5/loadTable) y [XML](https://p5js.org/reference/#/p5/loadXML). En todos los casos se recomienda crear una variable global, fuera de todo contexto, para asignarle su contenido dentro de una función de pre-carga. 
 
-JSON (JavaScript Objecto Notation)
+JSON (JavaScript Object Notation)
 
 ```
 <script>
@@ -140,7 +140,7 @@ function draw() {
 </script>
 ```
 
-CSV (Comma Separates Values)
+CSV (Comma Separated Values)
 
 ```
 <script>
