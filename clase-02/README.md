@@ -16,7 +16,7 @@ Las palabras están entre comillas, los números no; habría que poner atención
 
 ```var nombre = false;```
 
-Sin olvidar las consideraciones recién mencionadas, podemos avanzar a la variables que contienen un arreglo –array–, que exigen el uso de paréntesis de corchete o cuadrado y elementos separados por coma: 
+Sin olvidar las consideraciones recién mencionadas, podemos avanzar a la variables que contienen un arreglo –array–, que exigen el uso de paréntesis de corchete o cuadrado, y elementos separados por coma: 
 
 ```var nombre = [123, "Palabra o Palabras", false];```
 
