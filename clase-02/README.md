@@ -28,7 +28,7 @@ Una variable también puede contener un objeto, en este caso usamos paréntesis 
 
 Cuando usamos un objeto, podemos pedir cada elemento denominado por su denominador. Así, por ejemplo `nombre.dad` entregaría a `Homer`. Y podemos hacer combinaciones de objetos con arreglos; por ejemplo `nombre.children[1]` entregaría a `Lisa`.
 
-Inspirados en esta notación de objetos en JavaScript nace [JSON](http://json.org/json-es.html), un formato ligero de intercambio de datos que ha devenido en un formato de texto completamente independiente que puede ser analizado, generado, transformado y procesado en distintos lenguajes (ActionScript, [C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)), C++, C#, ColdFusion, Common Lisp, Delphi, E, Eiffel, Java, [JavaScript](https://es.wikipedia.org/wiki/JavaScript), ML, Objective-C, Objective CAML, Perl, [PHP](https://es.wikipedia.org/wiki/PHP), [Python](https://es.wikipedia.org/wiki/Python), Rebol, [Ruby](https://es.wikipedia.org/wiki/Ruby), Lua, Visual FoxPro).
+Inspirados en esta notación de objetos en JavaScript nace [JSON](http://json.org/json-es.html), un formato ligero de intercambio de datos que ha devenido en un formato de texto completamente independiente que puede ser analizado, generado, transformado y procesado en distintos lenguajes ([JavaScript](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON), [PHP](http://php.net/manual/es/book.json.php), [Python](https://docs.python.org/2/library/json.html), [Ruby](http://ruby-doc.org/stdlib-2.0.0/libdoc/json/rdoc/JSON.html), etc.).
 
 Si convertimos el ejemplo del objeto de Los Simpsons a JSON, tenemos:
 
