@@ -182,7 +182,7 @@ function draw() {
 
 Lo que hace p5.js con loadJSON, loadTable y loadXML es leer los datos y asignarlos a la variable al modo que corresponda, sean números, cadenas de caracteres, booleanos, arreglos u objetos.
 
-Podrás encontrar otras maneras de tomar datos externos en p5.js en [las referencias, bajo el título de input](https://p5js.org/reference/#group-IO).
+Podrás encontrar otras maneras de tomar datos externos en p5.js en [las referencias, bajo el título de IO](https://p5js.org/reference/#group-IO).
 
 #### Referencias
 
