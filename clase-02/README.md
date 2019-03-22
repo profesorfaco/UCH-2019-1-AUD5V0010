@@ -76,7 +76,7 @@ Urano, 51108, 0.718
 Neptuno, 49538, 0.6745
 ```
 
-**[XML](https://es.wikipedia.org/wiki/Extensible_Markup_Language) es un lenguaje de marcado (Markup Language) como HTML**, pero extensible (eXtensible). Esta última característica hace que su propósito descriptivo ofrece mayor alcance, permitiéndonos compartir datos como:
+**[XML](https://es.wikipedia.org/wiki/Extensible_Markup_Language) es un lenguaje de marcado (Markup Language) como HTML**, pero extensible (eXtensible). Esta última característica hace que su propósito descriptivo ofrezca mayor alcance, permitiéndonos compartir datos como:
 
 ```
 <root>
