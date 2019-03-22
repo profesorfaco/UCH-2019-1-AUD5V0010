@@ -42,11 +42,11 @@ Si convertimos el ejemplo del objeto de Los Simpsons a JSON, tenemos:
 
 Puede notarse que, a diferencia del objeto, en JSON el denominador siempre lleva comillas.
 
-Como hablamos de un formato ligero de intercambio de datos, corresponde sumar un apartado que se refiera a las API, el CSV y el XML.
+Como hablamos de un formato ligero de intercambio de datos, corresponde sumar un apartado que se refiera a las API, el CSV y el XML:
 
-**[API](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) es un conjunto de funciones, procedimientos y subrutinas** que pueden ser utilizadas para programar una aplicación que accede a otra aplicación (la sigla API significa interfaz de programación de aplicaciones). Las API que nos interesan en este apartado son las que entregan datos en JSON, y entre ellas podemos mencionar a [Weather API](https://openweathermap.org/api), [Mindicador](https://mindicador.cl/), [DataChile](https://es.datachile.io/about/api).
+**1. [API](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) es un conjunto de funciones, procedimientos y subrutinas** que pueden ser utilizadas para programar una aplicación que accede a otra aplicación (la sigla API significa interfaz de programación de aplicaciones). Las API que nos interesan en este apartado son las que entregan datos en JSON, y entre ellas podemos mencionar a [Weather API](https://openweathermap.org/api), [Mindicador](https://mindicador.cl/), [DataChile](https://es.datachile.io/about/api).
 
-**[CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas) son documentos que simplifican las tablas de una hoja de cálculo** (Excel), donde columnas y filas se reemplazan, respectivamente, por comas y saltos de línea.
+**2. [CSV](https://es.wikipedia.org/wiki/Valores_separados_por_comas) son documentos que simplifican las tablas de una hoja de cálculo** (Excel), donde columnas y filas se reemplazan, respectivamente, por comas y saltos de línea.
 
 Por ejemplo, en nuestra hoja de cálculo podríamos tener los siguientes datos:  
 
@@ -76,7 +76,7 @@ Urano, 51108, 0.718
 Neptuno, 49538, 0.6745
 ```
 
-**[XML](https://es.wikipedia.org/wiki/Extensible_Markup_Language) es un lenguaje de marcado (Markup Language) como HTML**, pero extensible (eXtensible). Esta última característica hace que su propósito descriptivo ofrezca mayor alcance, permitiéndonos compartir datos como:
+**3. [XML](https://es.wikipedia.org/wiki/Extensible_Markup_Language) es un lenguaje de marcado (Markup Language) como HTML**, pero extensible (eXtensible). Esta última característica hace que su propósito descriptivo ofrezca mayor alcance, permitiéndonos compartir datos como:
 
 ```
 <root>
