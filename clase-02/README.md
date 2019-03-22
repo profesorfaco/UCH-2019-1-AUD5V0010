@@ -52,7 +52,7 @@ Por ejemplo, en nuestra hoja de cálculo podríamos tener los siguientes datos:
 
 
 | planet        | diameter      | rotation  |
-| ------------- | ------------- | --------- |
+|:------------- |:------------- |:--------- |
 | Mercurio      | 4878          | 58.6667   |
 | Venus         | 12100         | 243       |
 | Tierra        | 12756         | 1         |
