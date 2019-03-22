@@ -2,7 +2,7 @@
 
 ### Datos
 
-Los datos en JavaScript pueden ser contenidos por las variables. La naturaleza del datos a ser contenido exige un cuidado especial.
+Los datos en JavaScript son contenidos por las variables. La naturaleza del dato a ser contenido exige un cuidado especial.
 
 Por ejemplo, si el dato a ser contenido por la variable es numérico –sea número entero o decimal–, corresponde escribir:
 
