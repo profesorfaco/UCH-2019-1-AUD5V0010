@@ -2,31 +2,31 @@
 
 ### Datos
 
-Los datos en JavaScript pueden ser asignados a variables. Cada tipo de dato exige un cuidado especial.
+Los datos en JavaScript pueden ser contenidos por las variables. La naturaleza del datos a ser contenido exige un cuidado especial.
 
-Por ejemplo, si el dato a ser contenido por la variable es numérico –sea número entero o decima–, corresponde escribir:
+Por ejemplo, si el dato a ser contenido por la variable es numérico –sea número entero o decimal–, corresponde escribir:
 
 ```var nombre = 123;```
 
-Si el contenido de la variable fuera textual –Como cadena de caracteres o String–, corresponde escribir:
+Si el contenido de la variable fuera textual –como cadena de caracteres o *string*–, corresponde escribirlo:
 
 ```var nombre = "Palabra o palabras";```
 
-Habría que poner atención a algo que aparéntemente estaría entre ambas, porque se ve como una palabra que se escribe sin comillas, pero se trata del tipo de dato distinto de ambas opciones, se trata del booleano: 
+Las palabras están entre comillas, los números no; habría que poner atención a un caso que parece estar justo al medio de ambos, pero se trata de un tipo de dato distinto de ambas opciones, se trata del [booleano](https://es.wikipedia.org/wiki/Tipo_de_dato_l%C3%B3gico), que solo admite dos posibles: `true` o `false`: 
 
 ```var nombre = false;```
 
-Sin olvidar las consideraciones recién mencionadas, podemos avanzar a la variables que contienen un arreglo, que son conjuntos de elementos que nos exigen el uso de paréntesis de llave y atención a las recomendaciones anteriores: 
+Sin olvidar las consideraciones recién mencionadas, podemos avanzar a la variables que contienen un arreglo –array–, que exigen el uso de paréntesis de corchete o cuadrado y elementos separados por coma: 
 
 ```var nombre = [123, "Palabra o Palabras", false];```
 
-Se puede consultar por cada elemento de un arreglo indicando la posición que tenga en él. Así, por ejemplo, se puede escribir `nombre[0]`para obtener `123`, porque la primera posición en un arreglo es identificada con ese número, y las demás con los sucesivos, o sea, el elemento de segunda posición en un arreglo se obtiene de `nombre[1]`.
+Se puede consultar por cada elemento de un arreglo indicando la posición que tenga. Así, por ejemplo, se puede escribir `nombre[0]`para obtener `123`, porque la primera posición en un arreglo es identificada con ese número, y las demás con los sucesivos, o sea, el elemento de segunda posición en un arreglo se obtiene de `nombre[1]`.
 
-Una variable también puede contener un objeto, en este caso usamos paréntesis de llave (`{}`), y en su interior tenemos pares donde uno denomina y otro es denominado, separados por coma entre ellos:
+Una variable también puede contener un objeto, en este caso usamos paréntesis de llave, y en su interior tenemos pares donde uno denomina y otro es denominado, separados por coma entre ellos:
 
 ```var nombre = {dad:"Homer", mom:"Marge", children:["Bart", "Lisa", "Maggie"]}```
 
-Cuando usamos un objeto, podemos pedir cada denominado por su denominador. Así, por ejemplo `nombre.dad` entregaría a `Homer`. Y podemos hacer combinaciones de objetos con arreglos, por ejemplo `nombre.children[1]` entregaría a `Lisa`.
+Cuando usamos un objeto, podemos pedir cada elemento denominado por su denominador. Así, por ejemplo `nombre.dad` entregaría a `Homer`. Y podemos hacer combinaciones de objetos con arreglos; por ejemplo `nombre.children[1]` entregaría a `Lisa`.
 
 Inspirados en esta notación de objetos en JavaScript nace [JSON](http://json.org/json-es.html), un formato ligero de intercambio de datos que ha devenido en un formato de texto completamente independiente que puede ser analizado, generado, transformado y procesado en distintos lenguajes (ActionScript, [C](https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)), C++, C#, ColdFusion, Common Lisp, Delphi, E, Eiffel, Java, [JavaScript](https://es.wikipedia.org/wiki/JavaScript), ML, Objective-C, Objective CAML, Perl, [PHP](https://es.wikipedia.org/wiki/PHP), [Python](https://es.wikipedia.org/wiki/Python), Rebol, [Ruby](https://es.wikipedia.org/wiki/Ruby), Lua, Visual FoxPro).
 
