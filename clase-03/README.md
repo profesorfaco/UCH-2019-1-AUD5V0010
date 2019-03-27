@@ -87,3 +87,16 @@ Lo que hace p5.js con loadJSON, loadTable y loadXML es leer los datos y asignarl
 
 Podrás encontrar otras maneras de tomar datos externos en p5.js en [las referencias, bajo el título de IO](https://p5js.org/reference/#group-IO).
 
+### Ejercicios
+
+Desarrollaremos 7 ejercicios preparativos para la evaluación de la [próxima clase](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-04). Usaremos una página web de las contenidas en esta carpeta para desarrollar cada ejercicio: 
+
+- `index.html` - Dibujo libre.
+- `sketch-1.html` - Dibujo resultado de repetición (patrón).
+- `sketch-2.html` - Dibujo resultado de repetición, según dato ingresado mediante input.
+- `sketch-3.html` - Dibujo resultado de consulta a JSON [validado](https://jsonlint.com/) (subido a [myjson.com](http://myjson.com/))
+- `sketch-4.html` - Dibujo resultado de consulta a XML (subido a repositorio en [Github](https://github.com/); puede [convertir JSON a XML](http://convertjson.com/json-to-xml.htm))
+- `sketch-4.html` - Dibujo resultado de consulta a CSV (subido a repositorio en [Github](https://github.com/), y derivado de copiar alguna tabla en página web con Google Docs)
+- `sketch-6.html` - Dibujo resultado de consulta a API ([openWeather Map](https://openweathermap.org/), [mindicador](https://mindicador.cl/), [DataChile](https://es.datachile.io/about/api), [etc.](https://github.com/jdorfman/awesome-json-datasets#awesome-json-datasets-)) 
+
+El término "dibujo" debe entenderse de manera laxa: Desde el "minimalismo abstracto" hasta "visualización de datos".
