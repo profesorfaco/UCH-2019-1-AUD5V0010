@@ -96,7 +96,7 @@ Desarrollaremos 7 ejercicios preparativos para la evaluación de la [próxima cl
 - `sketch-2.html` - Dibujo resultado de repetición, según dato ingresado mediante input.
 - `sketch-3.html` - Dibujo resultado de consulta a JSON [validado](https://jsonlint.com/) (subido a [myjson.com](http://myjson.com/))
 - `sketch-4.html` - Dibujo resultado de consulta a XML (subido a repositorio en [Github](https://github.com/); puede [convertir JSON a XML](http://convertjson.com/json-to-xml.htm))
-- `sketch-4.html` - Dibujo resultado de consulta a CSV (subido a repositorio en [Github](https://github.com/), y derivado de copiar alguna tabla en página web con Google Docs)
+- `sketch-5.html` - Dibujo resultado de consulta a CSV (subido a repositorio en [Github](https://github.com/), y derivado de copiar alguna tabla en página web con Google Docs)
 - `sketch-6.html` - Dibujo resultado de consulta a API ([openWeather Map](https://openweathermap.org/), [mindicador](https://mindicador.cl/), [DataChile](https://es.datachile.io/about/api), [etc.](https://github.com/jdorfman/awesome-json-datasets#awesome-json-datasets-)) 
 
 El término "dibujo" debe entenderse de manera laxa: Desde el "minimalismo abstracto" hasta "visualización de datos".
