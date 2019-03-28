@@ -29,26 +29,52 @@
     <script>
         //Ahora podemos usar la biblioteca que fuimos a buscar
         //Dibujo resultado de consulta a JSON
-        var data;
+        var data, total;
 
         function preload() {
-            //data
+            data = loadJSON('https://api.myjson.com/bins/csfl6');
         }
 
+ 
         function setup() {
             createCanvas(windowWidth,windowHeight).parent("aqui");
             background(225);
+            print(data);
+            noLoop();
+            noStroke();
+            textAlign(CENTER);
+
+            for(var n = 0; n < 6; n++){
+
+                if(data[n].ranking < 10){
+                    fill(255,0,0);
+                } else {
+                    fill(100);
+                }
+
+                ellipse(
+                    width/7*(n+1),
+                    data[n].ranking+20,
+                    10,
+                    10
+                    );                
+
+                fill(0);
+                
+                text(
+                    data[n].album,
+                    width/7*(n+1),
+                    (height/2)
+                    ); 
+            
+            }
+
         }
 
-        function draw() {
-            var total = data.length;
-            for (var n = 0; n > total; n++){
-                ellipse((width/total)*(n+1), height/2, 10, 10);
-            }
-        }
         
         function windowResized(){
             resizeCanvas(windowWidth, windowHeight);
+            background(225); 
         }
     </script>
 </body>
