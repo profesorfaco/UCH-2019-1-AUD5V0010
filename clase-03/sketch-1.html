@@ -24,17 +24,26 @@
     <!-- este div recibirá al canvas-->
     <div id="aqui"></div>
     <!-- vamos a buscar la biblioteca -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
     <script>
         //Ahora podemos usar la biblioteca que fuimos a buscar
+        //Dibujo resultado de repetición (patrón)
         function setup() {
             createCanvas(windowWidth,windowHeight).parent("aqui");
-            background(225);
+            noLoop();
         }
+
         function draw() {
-            ellipse(mouseX, mouseY, 50, 50);
+            background(225);
+        	var a = windowWidth/100;
+        	for (var x = 0; x < windowWidth; x = x + 50){
+        		for (var y = 0; y < windowHeight; y = y + 50){
+            		ellipse(x, y, a, a);
+				}
+        	}
         }
+        
         function windowResized(){
             resizeCanvas(windowWidth, windowHeight);
         }

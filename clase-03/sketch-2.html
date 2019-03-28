@@ -24,20 +24,30 @@
     <!-- este div recibirá al canvas-->
     <div id="aqui"></div>
     <!-- vamos a buscar la biblioteca -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>  
     <script>
         //Ahora podemos usar la biblioteca que fuimos a buscar
+        //Dibujo resultado de repetición, según dato ingresado mediante input
+        var input, botoncirijillo;
+
         function setup() {
             createCanvas(windowWidth,windowHeight).parent("aqui");
             background(225);
+            input = createInput().position(16, 16).style('padding','9px').attribute('type','number');
+            boton = createButton('INGRESAR').position(input.x + input.width + 18, 16).style("padding:10px; background:#eee; font-weight:bold;").mousePressed(dibuja);
         }
-        function draw() {
-            ellipse(mouseX, mouseY, 50, 50);
+        
+        function dibuja() {
+            background(225);
+            var tamano = Number(input.value());
+            alert("Ingresaste el valor " + tamano);
+            ellipse(width/2, height/2, tamano, tamano);
         }
+
         function windowResized(){
             resizeCanvas(windowWidth, windowHeight);
-        }
+        }        
     </script>
 </body>
 </html>

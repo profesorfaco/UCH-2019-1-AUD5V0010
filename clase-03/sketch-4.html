@@ -24,17 +24,29 @@
     <!-- este div recibirá al canvas-->
     <div id="aqui"></div>
     <!-- vamos a buscar la biblioteca -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>  
     <script>
         //Ahora podemos usar la biblioteca que fuimos a buscar
+        //Dibujo resultado de consulta a XML
+        var data;
+
+        function preload() {
+            //data
+        }
+
         function setup() {
             createCanvas(windowWidth,windowHeight).parent("aqui");
             background(225);
         }
+
         function draw() {
-            ellipse(mouseX, mouseY, 50, 50);
+            var total = data.length;
+            for (var n = 0; n > total; n++){
+                ellipse((width/total)*(n+1), height/2, 10, 10);
+            }
         }
+
         function windowResized(){
             resizeCanvas(windowWidth, windowHeight);
         }
