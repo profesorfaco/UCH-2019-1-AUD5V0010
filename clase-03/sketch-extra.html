@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        *{ margin:0; padding:0;}
+        body {height:100%; width:100%; overflow:hidden;}
+        #menu { top: 1rem; right: 1rem; position: fixed; z-index:9999; }
+    </style>
+    <title>Ejercicios de p5.js</title>
+</head>
+<body>
+    <!-- este será el munú -->
+    <select id="menu" onchange="location=this.value;">
+        <option value="index.html">index.html</option>
+        <option value="sketch-1.html">sketch-1.html</option>
+        <option value="sketch-2.html">sketch-2.html</option>
+        <option value="sketch-3.html" selected>sketch-3.html</option>
+        <option value="sketch-4.html">sketch-4.html</option>
+        <option value="sketch-5.html">sketch-5.html</option>
+        <option value="sketch-6.html">sketch-6.html</option>
+    </select>
+    <!-- este div recibirá al canvas-->
+    <div id="aqui"></div>
+    <!-- vamos a buscar la biblioteca -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script>
+        //Ahora podemos usar la biblioteca que fuimos a buscar
+        //Dibujo resultado de consulta a JSON
+        var data, total;
+
+        function preload() {
+            data = loadJSON('https://api.myjson.com/bins/oivx6');
+        }
+ 
+        function setup() {
+            createCanvas(windowWidth,windowHeight).parent("aqui");
+            background(225);
+            print(data);
+            noLoop();
+            noStroke();
+            textAlign(CENTER);
+
+            for(var n = 0; n < 5; n++){
+                textSize(data[n].poblacion/30000)
+                text(data[n].ciudad,width/2,(height/6)*(n+1)); 
+            }
+        }
+        
+        function windowResized(){
+            resizeCanvas(windowWidth, windowHeight);
+            background(225); 
+        }
+    </script>
+</body>
+</html>
