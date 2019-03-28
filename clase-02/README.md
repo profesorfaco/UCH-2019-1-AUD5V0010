@@ -194,6 +194,6 @@ Podrás encontrar otras maneras de tomar datos externos en p5.js en [las referen
 
 - Para poner en línea el JSON ya validado: http://myjson.com/
 
-- Para aprovechar un JSON que ya está en línea, que incluye los nombres de los hijos de Apu y Manjula: https://api.myjson.com/bins/17xzz6
+- Para aprovechar un JSON que ya está en línea, que incluye los nombres de los hijos de Apu y Manjula: https://api.myjson.com/bins/rexzi
 
 - Para comenzar a explorar p5.js con su editor en línea: https://editor.p5js.org/
