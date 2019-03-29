@@ -12,9 +12,9 @@
 - Dibujo resultado de consulta a CSV.
 - Dibujo resultado de consulta a API.
 
-En la evaluación de hoy será necesario programar, de manera autónoma, 4 de tales ejercicios, modificando datos y resultados.
+En la evaluación de hoy será necesario programar, de manera autónoma, versiones propias de 4 ejercicios.
 
-Al terminar de programar, se recomienda poner el resultado en línea, [usando GitHub Pages](https://www.youtube.com/watch?v=bFVtrlyH-kc&feature=youtu.be).
+Al terminar de programar, se recomienda poner el resultado en línea [usando GitHub Pages](https://www.youtube.com/watch?v=bFVtrlyH-kc&feature=youtu.be).
 
 La evaluación de lo programado considerará:
 
@@ -23,3 +23,5 @@ La evaluación de lo programado considerará:
 | Punto base                               |  1.0            |
 | Originalidad y calidad de lo programado  |  1.0, 2.0 ó 3.0 |
 | Originalidad y calidad de lo desplegado  |  1.0, 2.0 ó 3.0 |
+
+Se obtendrán 4 notas que promediadas se convertirán en la primera evaluación parcial del Electivo. 
