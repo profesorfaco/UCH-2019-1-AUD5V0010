@@ -103,4 +103,4 @@ El término "dibujo" debe entenderse de manera laxa: Desde el "minimalismo abstr
 
 - - - - - - - - - 
 
-[Siguiente clase →](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-04)
+[Cuarta clase →](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-04)
