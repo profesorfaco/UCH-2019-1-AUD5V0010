@@ -197,3 +197,7 @@ Podrás encontrar otras maneras de tomar datos externos en p5.js en [las referen
 - Para aprovechar un JSON que ya está en línea, que incluye los nombres de los hijos de Apu y Manjula: https://api.myjson.com/bins/rexzi
 
 - Para comenzar a explorar p5.js con su editor en línea: https://editor.p5js.org/
+
+- - - - - - - - - 
+
+[Tercera clase →](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-03)
