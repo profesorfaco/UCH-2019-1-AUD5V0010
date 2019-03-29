@@ -100,3 +100,7 @@ Desarrollaremos 7 ejercicios preparativos para la evaluación de la [próxima cl
 - `sketch-6.html` - Dibujo resultado de consulta a API ([openWeather Map](https://openweathermap.org/), [mindicador](https://mindicador.cl/), [DataChile](https://es.datachile.io/about/api), [etc.](https://github.com/jdorfman/awesome-json-datasets#awesome-json-datasets-)) 
 
 El término "dibujo" debe entenderse de manera laxa: Desde el "minimalismo abstracto" hasta "visualización de datos".
+
+- - - - - - - - - 
+
+[Siguiente clase →](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-04)
