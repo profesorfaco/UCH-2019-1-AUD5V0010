@@ -14,6 +14,33 @@
 
 En la evaluación de hoy será necesario programar, de manera autónoma, versiones propias de 4 ejercicios.
 
+**ACTUALIZACIÓN**
+
+LA TÓMBOLA ENTREGÓ POR RESULTADO **4,2,2,7**. O SEA, DEBEN HACER: 
+
+- Dibujo resultado de consulta a JSON en `index.html`
+
+- Dibujo resultado de repetición (patrón) en `segundo.html`
+
+- Dibujo resultado de repetición (patrón) en `tercero.html`
+
+- Dibujo resultado de consulta a API en `cuarto.html`
+
+¿Dónde pueden encontrar algún JSON para el primero ejercicio?
+
+- Pueden hacer el suyo propio, con http://myjson.com/
+- Pueden buscar en https://github.com/jdorfman/awesome-json-datasets
+- Pueden buscar en https://github.com/dariusk/corpora/tree/master/data
+
+¿Qué API puedo usar para el cuarto ejercicio?
+
+- Indicadores económicos https://mindicador.cl/
+- OpenWeatherMap https://openweathermap.org/
+- PokéAPI https://pokeapi.co/
+- SWAPI https://swapi.co/
+- GeoJSON Summary de la USGS https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+
+
 Al terminar de programar, se recomienda poner el resultado en línea [usando GitHub Pages](https://www.youtube.com/watch?v=bFVtrlyH-kc&feature=youtu.be).
 
 La evaluación de lo programado considerará:
