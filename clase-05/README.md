@@ -8,6 +8,17 @@ Varias cosas de las que ya vimos en p5.js pueden ser aplicadas en Processing. Pe
 
 - Processing está basado en [Java](https://es.wikipedia.org/wiki/Java_(lenguaje_de_programación))
 
+Al tener esa base, tenemos que olvidarnos de crear variables con `var`. Ahora corresponde especificar qué tipo de dato (*dataype*) contendrá la variable al momento de crearla, sea a nivel global o local. 
+
+| Tipo de dato                                               | var    | ejemplo        | 
+|:-----------------------------------------------------------|:------:|:---------------|
+| Cuando la variable contiene un número entero               | int    | int a = 10;    |
+| Cuando la variable contiene un número flotante             | float  | flaot a = 1.1; |
+| Cuando la variable contiene un caracter                    | char   | char a = "A";  |
+| Cuando la variable contiene una secuencia de caracteres    | String | String a = "Ayayay" |
+| Cuando la variable contiene un arreglo de números enteros  | int[]  | int[] a = { 10 , 20 , 30 }  |
+| Cuando la variable contiene un arreglo de caracteres       | char[] | char[] a = { "X", "Y", "Z" } |
+
 Además, **Processing** se ha presentado desde sus inicios como: 
 
 - un [lenguaje](https://processing.org/reference/) que sirve de introducción a la programación; 
