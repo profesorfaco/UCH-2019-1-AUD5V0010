@@ -13,11 +13,11 @@ En este avance cada estudiante accederá a los principios básicos de la program
 - [Clase 1](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-01) → jueves 14 de marzo → Conceptos básicos de programación en web
 - [Clase 2](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-02) → jueves 21 de marzo → Ejercicios de introducción
 - [Clase 3](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-03) → jueves 28 de marzo → Ejercicios para evaluación
-- **Clase 4 → jueves 04 de abril → Evaluación Parcial**
+- **[Clase 4](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-04) → jueves 04 de abril → Evaluación Parcial**
 
 ###### [Processing](https://processing.org/)
 
-- Clase 5 → jueves 11 de abril → Conceptos básicos de programación
+- [Clase 5](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-05) → jueves 11 de abril → Conceptos básicos de programación
 - Clase 6 → jueves 18 de abril → Ejercicios de introducción
 - Clase 7 → jueves 25 de abril → Ejercicios para Evaluación
 - **Clase 8 → jueves 02 de mayo → Evaluación Parcial**
