@@ -19,11 +19,8 @@ En la evaluación de hoy será necesario programar, de manera autónoma, version
 LA TÓMBOLA ENTREGÓ POR RESULTADO **4,2,2,7**. O SEA, DEBEN HACER: 
 
 - Dibujo resultado de consulta a JSON en `index.html`
-
 - Dibujo resultado de repetición (patrón) en `segundo.html`
-
 - Dibujo resultado de repetición (patrón) en `tercero.html`
-
 - Dibujo resultado de consulta a API en `cuarto.html`
 
 ¿Dónde pueden encontrar algún JSON para el primero ejercicio?
@@ -36,6 +33,7 @@ LA TÓMBOLA ENTREGÓ POR RESULTADO **4,2,2,7**. O SEA, DEBEN HACER:
 
 - Indicadores económicos https://mindicador.cl/
 - OpenWeatherMap https://openweathermap.org/
+- DataChile https://es.datachile.io/about/api
 - PokéAPI https://pokeapi.co/
 - SWAPI https://swapi.co/
 - GeoJSON Summary de la USGS https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
