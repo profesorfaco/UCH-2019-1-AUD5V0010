@@ -50,3 +50,35 @@ La evaluación de lo programado considerará:
 | Originalidad y calidad de lo desplegado  |  1.0, 2.0 ó 3.0 |
 
 Se obtendrán 4 notas que promediadas se convertirán en la primera evaluación parcial del Electivo. 
+
+- - - - - - - - - -
+
+### Resultados
+
+- María Araya - ?
+
+- Sebastián Barraza - ?
+
+- Ignacio Carrasco - ?
+
+- Sara Cruz - ?
+
+- David Gutiérrez - ?
+
+- Antonia Horta - ?
+
+- [Alan Koster](https://docodricaco.github.io/evaluacion-faco/)
+
+- Maryorie Maldonado - ?
+
+- Camila Muñoz - ?
+
+- [Matías Osorio](https://matiasosoma.github.io/evaluacion-01/)
+
+- [Paulina Rodriguez](https://paulinarodriguez.github.io/evaluacion_040419/)
+
+- [Nicolas Tellez](https://nicotellez.github.io/evaluacion-faco/)
+
+- [Rodrigo Torres](https://torressantosr.github.io/evaluacion/)
+
+
