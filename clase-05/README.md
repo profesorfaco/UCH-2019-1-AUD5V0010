@@ -13,11 +13,10 @@ Al tener esa base, tenemos que olvidarnos de crear variables con `var`. Ahora co
 | Tipo de dato                                               | var    | ejemplo        | 
 |:-----------------------------------------------------------|:------:|:---------------|
 | Cuando la variable contiene un número entero               | int    | int a = 10;    |
-| Cuando la variable contiene un número flotante             | float  | flaot a = 1.1; |
-| Cuando la variable contiene un caracter                    | char   | char a = "A";  |
+| Cuando la variable contiene un número flotante             | float  | float a = 1.1; |
+| Cuando la variable contiene un caracter                    | char   | char a = 'A';  |
 | Cuando la variable contiene una secuencia de caracteres    | String | String a = "Ayayay" |
 | Cuando la variable contiene un arreglo de números enteros  | int[]  | int[] a = { 10 , 20 , 30 }  |
-| Cuando la variable contiene un arreglo de caracteres       | char[] | char[] a = { "X", "Y", "Z" } |
 
 Además, **Processing** se ha presentado desde sus inicios como: 
 
@@ -27,7 +26,7 @@ Además, **Processing** se ha presentado desde sus inicios como:
 
 - una [comunidad](https://processing.org/overview/).
 
-Como Processing es un lenguaje de introducción a la programación que trabaja con su propia IDE, puedes avanzar rápido en su exploración si es que recuerdas el *shortcut*: Crtl + Shift + F, con el que puedes buscar referencias para las palabras reservadas del lenguaje (a lo mismo se llega con botón Ayuda → Buscar en la referencia). Además, cuando estés escribiendo, puedes ordenar el *sketch* con otro *shortcut*: Crtl + T (a lo que se llega en con el menú en Editar →  Autoformato).
+**Como Processing es un lenguaje de introducción a la programación que trabaja con su propia IDE, puedes avanzar rápido en su exploración si es que recuerdas el *shortcut*: Crtl o cmd + ⇧ Shift + F**, con el que puedes buscar referencias para las palabras reservadas del lenguaje (a lo mismo se llega con botón Ayuda → Buscar en la referencia). Además, cuando estés escribiendo, puedes ordenar el *sketch* con otro *shortcut*: Crtl + T (a lo que se llega en con el menú en Editar →  Autoformato).
 
 En este caso, al programa no le llamaremos *script* como lo hacíamos en el contexto de una biblioteca de JavaScritp. En processing le llamaremos *sketch*, porque se trata de un boceto.
 
