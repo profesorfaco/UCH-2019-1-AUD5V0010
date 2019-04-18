@@ -17,23 +17,22 @@ En este avance cada estudiante accederá a los principios básicos de la program
 
 ###### [Processing](https://processing.org/)
 
-- [Clase 5](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-05) → jueves 11 de abril → Conceptos básicos de programación
-- Clase 6 → jueves 18 de abril → Ejercicios de introducción
-- Clase 7 → jueves 25 de abril → Ejercicios para Evaluación
-- **Clase 8 → jueves 02 de mayo → Evaluación Parcial**
+- [Clase 5](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-05) → jueves 18 de abril → Conceptos básicos de programación
+- Clase 6 → jueves 25 de abril → Ejercicios para evaluación
+- **Clase 7 → jueves 02 de mayo → Evaluación Parcial**
 
 ###### [Arduino](https://www.arduino.cc/)
 
-- Clase 9 → jueves 16 de mayo → Conceptos básicos de electrónica
-- Clase 10 → jueves 23 de mayo → Ejercicios de introducción
-- Clase 11 → jueves 30 de mayo → Ejercicios para Evaluación
-- **Clase 12 → jueves 06 de junio → Evaluación Parcial**
+- Clase 8 → jueves 16 de mayo → Conceptos básicos de electrónica
+- Clase 9 → jueves 23 de mayo → Ejercicios de introducción
+- Clase 10 → jueves 30 de mayo → Ejercicios para Evaluación
+- **Clase 11 → jueves 06 de junio → Evaluación Parcial**
 
 ###### Integración y aplicación
 
-- Clase 13 → jueves 13 de junio → Propuesta
-- **Clase 14 → jueves 27 de junio → Pre-Entrega con Evaluación Parcial**
-- **Clase 15 → jueves 4 de julio  → Entrega Final con Evaluación Parcial**
+- Clase 12 → jueves 13 de junio → Propuesta
+- **Clase 13 → jueves 27 de junio → Pre-Entrega con Evaluación Parcial**
+- **Clase 14 → jueves 4 de julio  → Entrega Final con Evaluación Parcial**
 
 ### Evaluaciones
 
