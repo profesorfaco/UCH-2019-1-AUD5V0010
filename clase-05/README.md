@@ -1,4 +1,4 @@
-# Processing → Clase 5 → jueves 11 de abril
+# Processing → Clase 5 → jueves 18 de abril
 
 Hoy comenzaremos a trabajar con Processing. Para ello es necesario tener instalada su última versión: [Processing 3](https://processing.org/download/)
 
