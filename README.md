@@ -22,7 +22,7 @@ En este avance cada estudiante accederá a los principios básicos de la program
 
 ###### [Arduino](https://www.arduino.cc/)
 
-- **Clase 7 → jueves 16 de mayo → Conceptos básicos de electrónica + Evaluación Parcial de Processing**
+- **[Clase 7](https://github.com/profesorfaco/AUD5V0010-2019/tree/master/clase-07) → jueves 16 de mayo → Conceptos básicos de electrónica + Evaluación Parcial de Processing**
 - Clase 8 → jueves 23 de mayo → Ejercicios de introducción
 - Clase 9 → jueves 30 de mayo → Ejercicios para Evaluación
 - **Clase 10 → jueves 06 de junio → Evaluación Parcial**
