@@ -17,7 +17,7 @@ Veamos el siguiente ejemplo:
 
 ![Ley de Ohm](https://www.build-electronic-circuits.com/wp-content/uploads/2014/09/Ohms-law-cartoon-cropped.jpg)
 
-En un circuito puedo afectar el flujo de electrones mediante una resistencia variable. La variable de tal resistencia puede depende de un factor externo. Puedo usar, por ejemplo, un [fotoresistor](https://es.wikipedia.org/wiki/Fotorresistor).
+En un circuito puedo afectar el flujo de electrones mediante una resistencia variable. La variable de tal resistencia dependerá de un factor externo. Por ejemplo, un [fotoresistor](https://es.wikipedia.org/wiki/Fotorresistor) es una resistencia que depende de la luminosidad.
 
 ![Fotoresistor](http://e-ducativa.catedu.es/44700165/aula/archivos/repositorio/1000/1106/html/20070822klpingtcn_247iessco.jpg)
 
