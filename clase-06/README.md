@@ -3,14 +3,20 @@
 Para continuar el trabajo con Processing, cada estudiante presentará un Sketch y guiará al curso en el modo de resolverlo. 
 
 
-| Estudiante                                               | repositorio de Github     | 
-|:---------------------------------------------------------|:--------------------------|
-| Ma. Valentina Araya | github.com/  |
-| Sebastián Barraza   | github.com/  |
-| Ignacio Carrasco    | github.com/  |
-| Sara Cruz           | github.com/  |
-| Antonia Horta       | github.com/  |
-| Alan Koster         | github.com/  |
+| Estudiante                | Asist./puntual.    | Repositorio de Github                   | 
+|:--------------------------|:------------------:|:----------------------------------------|
+| Ma. Valentina Araya       |        —           |                                         |
+| Sebastián Barraza         |        —           |                                         |
+| Ignacio Carrasco          |        —           |                                         |
+| Sara Cruz                 |        2           | https://github.com/Saracruzg/sketch     |
+| Antonia Horta             |        2           | https://github.com/antohorta/sketch     |
+| Alan Koster               |        —           |                                         |
+| Julio Lara                |        —           |                                         |
+| Camila Muñoz              |        —           |                                         |
+| Matías Osorio             |        2           | https://github.com/matiasosoma/sketch   |
+| Paulina Tapia             |        —           |                                         |
+| Nicolas Tellez            |        2           | https://github.com/nicotellez/sketch    |
+| Rodrigo Torres            |        2           | https://github.com/torressantosr/sketch |
 
 
 
