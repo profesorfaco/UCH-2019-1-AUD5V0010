@@ -7,6 +7,11 @@ Aprovecharemos la biblioteca `processing.serial.*`, que nos permitirá comunicar
 El dato que obtengamos de esta comunicación tendrá que afectar directamente la ejecución de un sketch de Processing. 
 
 
+### Electrónica: 
+
+De modo muy simplificado, electrónica es trabajar con la emisión, el flujo y el control de los electrones.
+
+![Ley de Ohm](https://www.build-electronic-circuits.com/wp-content/uploads/2014/09/Ohms-law-cartoon-cropped.jpg)
 
 
 
@@ -15,4 +20,3 @@ El dato que obtengamos de esta comunicación tendrá que afectar directamente la
 - [Conceptos básicos sobre señales eléctricas](http://www.arduino.utfsm.cl/1-conceptos-de-electronica-basica/)
 - [Componentes electrónicos](https://aprendiendoarduino.wordpress.com/tag/ley-de-ohm/)
 - [Voltaje, Corriente, Resistencia, y Ley de Ohm](http://cursos.mcielectronics.cl/voltaje-corriente-resistencia-y-ley-de-ohm/)
-- [!Ley de Ohm](https://www.build-electronic-circuits.com/wp-content/uploads/2014/09/Ohms-law-cartoon-cropped.jpg)
