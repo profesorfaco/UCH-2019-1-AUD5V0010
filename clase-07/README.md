@@ -21,7 +21,7 @@ En un circuito puedo afectar el flujo de electrones mediante una resistencia var
 
 ![Fotoresistor](http://e-ducativa.catedu.es/44700165/aula/archivos/repositorio/1000/1106/html/20070822klpingtcn_247iessco.jpg)
 
-Podríamos tener una fuente de poder que ponga electrones en un circuito. Al medio de este circuito podríamos poner un fotoresistor. Al otro extremo del circuito puedo poner un "contador" de electones. Si "cuento" los electrones que pasan después del angostamiento que provoca la fotoresistencia, puedo obtener un dato respecto de la luminosidad del lugar donde se encuentra la fotoresistencia (que podría apretar más o menos la cuarda según la luz natural recibida). Este dato podría ser un *input*. Luego, podría interpretar tal dato para el siguiente *output*: Afectar a un [relé](https://es.wikipedia.org/wiki/Rel%C3%A9), para permitir el paso de corriente que encienda una fuente de luz artificial… y de esta manera funcionan los postes de alumbrado público.
+Podríamos tener una fuente de poder que ponga electrones en un circuito. Al medio de este circuito podríamos poner un fotoresistor. Al otro extremo del circuito puedo poner un "contador" de electones. Si "cuento" los electrones que pasan después del angostamiento que provoca la fotoresistencia, puedo obtener un dato respecto de la luminosidad del lugar donde se encuentra la fotoresistencia (que podría apretar más o menos la cuerda del dibujo según la luz natural recibida). Este dato podría ser un *input*. Luego, podría interpretar tal dato para el siguiente *output*: Afectar a un [relé](https://es.wikipedia.org/wiki/Rel%C3%A9), para permitir el paso de corriente que encienda una fuente de luz artificial… y de esta manera funcionan los postes de alumbrado público.
 
 
 ### Referencias
