@@ -9,9 +9,19 @@ En esta clase corresponde hacer una introducción a los conceptos básicos de el
 
 ### Conceptos básicos de electrónica: 
 
-De modo muy simplificado, electrónica es trabajar con la emisión, el flujo y el control de los electrones.
+**De modo muy simplificado, electrónica es trabajar con la emisión, el flujo y el control de los electrones.**
+
+Corresponde saber **algo de electrónica** para trabajar con **circuitos electrónicos**, porque estos últimos se aprovechan del flujo de electrones para la generación, transmisión, recepción, almacenamiento de datos, cumpliendo con ello el rol de sensores (*input*) o actuadores (*output*).
+
+Veamos el siguiente ejemplo:
 
 ![Ley de Ohm](https://www.build-electronic-circuits.com/wp-content/uploads/2014/09/Ohms-law-cartoon-cropped.jpg)
+
+En un circuito puedo afectar el flujo de electrones mediante una resistencia variable. La variable de tal resistencia puede depende de un factor externo. Puedo usar, por ejemplo, un fotoresistor.
+
+![Fotoresistor](http://e-ducativa.catedu.es/44700165/aula/archivos/repositorio/1000/1106/html/20070822klpingtcn_247iessco.jpg)
+
+A la medida que reciba una mayor cantidad de luz, este fotoresistor apretará aún más el paso del pobre electrón. 
 
 
 
